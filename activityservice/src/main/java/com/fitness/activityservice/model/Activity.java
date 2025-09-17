@@ -14,7 +14,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Document(collation = "activities")
+@Document(collection = "activities")
 @Data
 @Builder
 @AllArgsConstructor
